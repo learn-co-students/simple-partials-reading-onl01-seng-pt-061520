@@ -1,8 +1,10 @@
+# frozen_string_literal: true
+
 require 'rails_helper'
 
 describe 'author show page' do
   before do
-    @author = Author.create(name: "J.K. Rowling", hometown: "Killiechassie, Scotland")
+    @author = Author.create(name: 'J.K. Rowling', hometown: 'Killiechassie, Scotland')
   end
 
   it 'returns a 200 status code' do
